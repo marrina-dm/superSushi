@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    background-color: #020303;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 281px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.menu-item:first-child {
+    margin-left: 0;
+}
+
+.menu-item:last-child {
+    margin-left: 24px;
+}
+
+.menu-item a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-decoration: none;
+    padding-bottom: 6px;
+}
+
+.menu-item a:hover {
+    font-size: 16px;
+    color: #ffaf18;
+    line-height: 1.2;
+    border-bottom: 2px solid #ffaf18;
+}
+
+.main {
+    padding: 133px 0 80px 0;
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 45px;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 564px;
+    margin-bottom: 74px;
+}
+
+.main-info h1 span {
+    color: #ffaf18;
+}
+
+.main-info-items {
+    margin-bottom: 92px;
+}
+
+.main-info-item {
+    display: inline-block;
+}
+
+.main-info-item:first-child {
+    margin-right: 99px;
+}
+
+.main-info-item-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.main-info-item-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.button {
+    background-color: #ffaf18;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.button:hover {
+    box-shadow: 0 10px 30px -10px #ffa700;
+}
+
+.main-info-button {
+    border-radius: 30px;
+    width: 224px;
+    padding: 22px 22px 23px 22px;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 22px;
+}
+
+.products {
+    padding: 120px 0 108px 0;
+}
+
+.products h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.products-items {
+    margin: 0 -12px;
+}
+
+.products-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 282px;
+    margin: 12px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 20px 15px 20px;
+    box-sizing: border-box;
+    border: 5px solid transparent;
+}
+
+.products-item:first-child, .products-item:last-child {
+    border-color: #ed9b00;
+}
+
+.products-item:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.products-item-image {
+    margin-bottom: 30px;
+}
+
+.products-item h3 {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.products-item p {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    width: 242px;
+    margin: 0 auto;
+    min-height: 53px;
+}
+
+.products-item-button {
+    margin: 15px 0;
+}
+
+.products-button {
+    border-radius: 25px;
+    width: 242px;
+    padding: 17px 17px 18px 17px;
+}
+
+.about {
+    padding: 120px 0 67px 0;
+}
+
+.about-info {
+    max-width: 384px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.about-info-text {
+    margin-bottom: 100px;
+}
+
+.about-info-text h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    margin-bottom: 69px;
+}
+
+.about-info-text p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    max-width: 345px;
+}
+
+.about-info-actions h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 38px;
+}
+
+.about-info-item {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    margin-right: 40px;
+}
+
+.about-info-item:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.about-info-item:visited {
+    border-radius: 50%;
+    background-color: rgb(190, 190, 190);
+}
+
+.about-info-item:active {
+    border-radius: 50%;
+    background-color: rgb(255, 175, 24);
+    box-shadow: none;
+}
+
+.about-info-item.about-info-item-onigiri {
+    padding: 13px 6px 13px 8px;
+}
+
+.about-info-item.about-info-item-sushi {
+    padding: 11px 9px 10px 12px;
+}
+
+.about-info-item.about-info-item-tuna {
+    padding: 14px 7px;
+}
+
+.about-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 48px;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    margin-left: 390px;
+}
